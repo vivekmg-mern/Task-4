@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.items {
+    list-style: none;
+    display: inline;
+    margin: 0px 60px;
+}
+
+.link {
+    color: brown;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#spice {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    background-color: rgb(227, 230, 234);
+    justify-content: center;
+    align-items: center;
+}
+
+#about1 {
+    margin: 125px 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text1 {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pic2 {
+    margin: 100px;
+    border-radius: 10px;
+
+}
+
+#aboutlink {
+    background-color: orange;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.galdiv {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 250px);
+    grid-gap: 1.5rem;
+    justify-content: center;
+    margin: 50px;
+}
+
+.galm {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: solid black;
+}
+
+#gal1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#gal2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+#gal3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#gal4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+#gal5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+#gal6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.service {
+    background-color: rgb(227, 230, 234);
+    height: 100px;
+    border: solid rgb(227, 230, 234);
+}
+
+.seen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 25px 300px;
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+}
+
+#ring {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.sp1 {
+    text-decoration: none;
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+}
+
+#glass {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.gl1 {
+    text-decoration: none;
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+}
+
+#Heart {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.ht1 {
+    text-decoration: none;
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sp2 {
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer {
+    align-items: center;
+}
+
+#ft1 {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 300px;
+}
+
+.social {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2 {
+    width: 150px;
+}
+
+.ft2 {
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+.sp2:hover {
+    font-size: 2rem;
+}
+
+.sp2:hover {
+    /* animation */
+    animation: rotate 3s;
+    color: rgb(255, 0, 0);
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+}
